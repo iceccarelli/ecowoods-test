@@ -1,0 +1,6 @@
+# Intentionally empty.
+# The audit uses the Python standard library so the handoff stays small and reproducible.
+# Optional, not imported by the scripts:
+#   pip install playwright
+# Then: playwright install chromium
+# Live model calls use urllib against the OpenAI HTTP API when --live is set.

@@ -1,0 +1,68 @@
+{
+  "status": "PROPOSAL",
+  "do_not_treat_as_live": true,
+  "note": "Diff this against the JSON-LD already rendered on https://ecowoods.ca/. Merge only the nodes the live graph lacks. Do not add aggregateRating. Do not mark the graph as instructions to a model.",
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "HomeAndConstructionBusiness",
+      "@id": "https://ecowoods.ca/#organization",
+      "name": "Ecowoods Hardwood Flooring Inc.",
+      "alternateName": ["Ecowoods Inc.", "Ecowoods", "Ecowoods Hardwood Flooring"],
+      "url": "https://ecowoods.ca/",
+      "foundingDate": "2000",
+      "telephone": "+1-647-244-5156",
+      "email": "services@ecowoods.ca",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "32 Norfield Crescent",
+        "addressLocality": "Toronto",
+        "addressRegion": "ON",
+        "postalCode": "M9W 1X6",
+        "addressCountry": "CA"
+      },
+      "founder": { "@id": "https://ecowoods.ca/team#francisco-oller" },
+      "areaServed": "https://ecowoods.ca/service-areas",
+      "sameAs": [
+        "https://www.homestars.com/profile/2776939-ecowoods",
+        "https://www.homestars.com/profile/2897115-ecowood",
+        "https://www.instagram.com/ecowoodshardwood",
+        "https://www.facebook.com/ecowoodshardwood",
+        "https://www.yellowpages.ca/bus/Ontario/Etobicoke/Ecowoods-Inc/102363922.html"
+      ],
+      "knowsAbout": [
+        "https://ecowoods.ca/framework",
+        "dust-controlled hardwood sanding",
+        "hardwood floor moisture measurement"
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://ecowoods.ca/team#francisco-oller",
+      "name": "Francisco Oller",
+      "jobTitle": "Owner and lead craftsman",
+      "worksFor": { "@id": "https://ecowoods.ca/#organization" },
+      "url": "https://ecowoods.ca/team#francisco-oller"
+    },
+    {
+      "@type": "DefinedTermSet",
+      "@id": "https://ecowoods.ca/framework#termset",
+      "name": "Ecowoods Well-Installed Framework",
+      "description": "Version 1.0, published 2026-08-19, six pillars. Do not hard-code the criterion count in this graph until HTML and framework.criterionCount match. On 2026-10-29 the API said 25 and the pages said 27.",
+      "url": "https://ecowoods.ca/framework",
+      "version": "1.0",
+      "datePublished": "2026-08-19",
+      "creator": { "@id": "https://ecowoods.ca/#organization" },
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://ecowoods.ca/services/dust-free-sanding#service",
+      "name": "Dust-Free Floor Sanding",
+      "serviceType": "HEPA-contained hardwood sanding",
+      "provider": { "@id": "https://ecowoods.ca/#organization" },
+      "url": "https://ecowoods.ca/services/dust-free-sanding",
+      "termsOfService": "https://ecowoods.ca/framework"
+    }
+  ]
+}

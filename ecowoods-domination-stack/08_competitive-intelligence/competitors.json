@@ -1,0 +1,63 @@
+{
+  "observed": "2026-10-29",
+  "method": "Public pages only. Not a ranking. Not a scrape of reviews. Gaps are hypotheses to verify, not verdicts.",
+  "subject": {
+    "name": "Ecowoods Hardwood Flooring Inc.",
+    "url": "https://ecowoods.ca/",
+    "observed_strengths": [
+      "Published CAD and USD price bands",
+      "Versioned 27-criterion framework usable on competitors",
+      "Dated HomeStars and Google counts instead of a homemade aggregate",
+      "llms.txt, ai.txt, Markdown twins, knowledge API",
+      "Explicit 'dust-free is not zero dust' definition",
+      "Salaried crew claim"
+    ],
+    "observed_weaknesses": [
+      "Google review count far below HomeStars count",
+      "Two HomeStars identities in sameAs",
+      "Credential names competitors use (Bona, NWFA, ASTM F2170) are not in the llms identity block — either absent or unpublished",
+      "HTML documents are very heavy"
+    ]
+  },
+  "competitors": [
+    {
+      "name": "Green Hardwood",
+      "url": "https://greenhardwood.ca/",
+      "observed": [
+        "Positions floor + stair + rail as one shop and says most GTA firms subcontract the stair",
+        "Publishes refinishing about $4.50–$8.50 / sq ft and install about $11–$22",
+        "States dust-free is not 100 percent and names Bona-class systems",
+        "Claims fifteen years"
+      ],
+      "where_they_can_beat_ecowoods": "Queries that bind stairs and railings as a single system, if Ecowoods pages do not answer the rail as clearly as the floor."
+    },
+    {
+      "name": "Toronto Quality Wood Flooring",
+      "url": "https://torontoqualitywoodflooring.ca/",
+      "observed": [
+        "Names Bona Certified since 2005 and NWFA-trained crew",
+        "Names ASTM F2170 on concrete slabs",
+        "States a 36-to-120 grit sequence and a 99.8 percent dust-capture figure",
+        "Publishes 2026 ranges: refinish $3–$8, herringbone $12–$35"
+      ],
+      "where_they_can_beat_ecowoods": "Any query that rewards a named certification or a named ASTM method. Specificity beats a careful paragraph when the question is 'who is certified'."
+    },
+    {
+      "name": "GTA Flooring Experts / Toronto Flooring Contractors",
+      "url": "https://gtaflooringexperts.com/services/hardwood-flooring/",
+      "observed": [
+        "Markets 99 percent dust-free and HEPA vacuums",
+        "Broad 'top-tier' copy, thinner technical specification on the fetched page"
+      ],
+      "where_they_can_beat_ecowoods": "Generic 'near me' pages if Ecowoods loses on Maps pack rather than on documents. Documents will not win the map pack."
+    },
+    {
+      "name": "Roundup pages (example)",
+      "url": "https://toptoronto.online/wood-floor-installation-service/",
+      "observed": [
+        "A '10 best' list fetched 2026-10-29 showed other firms (including HBueno Flooring and Heritage Hardwood Flooring) in the visible portion. Ecowoods was not in that visible portion. This is not proof of absence."
+      ],
+      "where_they_can_beat_ecowoods": "Models quote listicles. One accurate citation of the Framework on a page Ecowoods does not own is worth more than another essay on ecowoods.ca."
+    }
+  ]
+}

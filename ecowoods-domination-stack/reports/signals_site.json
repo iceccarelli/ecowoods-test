@@ -1,0 +1,286 @@
+{
+  "audited_at": "2026-10-29T18:30:35Z",
+  "origin": "https://ecowoods.ca",
+  "sitemap_urls": 622,
+  "status_200_rate": 0.91,
+  "non_200": 56,
+  "ttfb_p50": 227.7,
+  "service_area_urls": 100,
+  "homepage_bytes": 524216,
+  "estimate_bytes": 334235,
+  "pricing_bytes": 373110,
+  "heavy_priority_pages": [
+    {
+      "path": "/",
+      "bytes": 524216
+    },
+    {
+      "path": "/pricing",
+      "bytes": 373110
+    },
+    {
+      "path": "/estimate",
+      "bytes": 334235
+    },
+    {
+      "path": "/framework",
+      "bytes": 429271
+    },
+    {
+      "path": "/framework/assess",
+      "bytes": 321956
+    },
+    {
+      "path": "/services",
+      "bytes": 340192
+    },
+    {
+      "path": "/services/dust-free-sanding",
+      "bytes": 437277
+    },
+    {
+      "path": "/services/hardwood-installation",
+      "bytes": 447071
+    },
+    {
+      "path": "/services/floor-refinishing",
+      "bytes": 420320
+    },
+    {
+      "path": "/services/floor-restoration",
+      "bytes": 412505
+    },
+    {
+      "path": "/services/stair-refinishing",
+      "bytes": 415343
+    },
+    {
+      "path": "/services/custom-inlays",
+      "bytes": 394128
+    },
+    {
+      "path": "/hardwood-floor-refinishing-toronto",
+      "bytes": 646385
+    },
+    {
+      "path": "/hardwood-flooring-toronto",
+      "bytes": 800329
+    },
+    {
+      "path": "/hardwood-stairs-toronto",
+      "bytes": 637810
+    },
+    {
+      "path": "/hardwood-floor-problems-toronto",
+      "bytes": 565894
+    },
+    {
+      "path": "/guides/hardwood-flooring-cost-toronto",
+      "bytes": 361251
+    },
+    {
+      "path": "/guides/dustless-hardwood-refinishing-toronto",
+      "bytes": 362356
+    },
+    {
+      "path": "/guides/how-to-choose-hardwood-contractor-toronto",
+      "bytes": 342434
+    },
+    {
+      "path": "/about",
+      "bytes": 338490
+    },
+    {
+      "path": "/contact",
+      "bytes": 315323
+    },
+    {
+      "path": "/team",
+      "bytes": 332673
+    },
+    {
+      "path": "/reviews",
+      "bytes": 319986
+    },
+    {
+      "path": "/authority",
+      "bytes": 334151
+    },
+    {
+      "path": "/case-studies",
+      "bytes": 328889
+    },
+    {
+      "path": "/technical-library",
+      "bytes": 351378
+    },
+    {
+      "path": "/service-areas",
+      "bytes": 405924
+    },
+    {
+      "path": "/service-areas/downtown-toronto",
+      "bytes": 383337
+    },
+    {
+      "path": "/realtors",
+      "bytes": 470538
+    },
+    {
+      "path": "/commercial",
+      "bytes": 641972
+    },
+    {
+      "path": "/floor-studio",
+      "bytes": 334559
+    },
+    {
+      "path": "/quote-check",
+      "bytes": 321654
+    },
+    {
+      "path": "/press",
+      "bytes": 325305
+    }
+  ],
+  "priority_200_rate": 1.0,
+  "priority_with_title": 33,
+  "priority_with_h1": 33,
+  "priority_with_viewport": 33,
+  "priority_count": 33,
+  "priority_200": 33,
+  "schema_types": [
+    "AboutPage",
+    "AdministrativeArea",
+    "Answer",
+    "AudioObject",
+    "BreadcrumbList",
+    "City",
+    "CollectionPage",
+    "CommunicateAction",
+    "ContactPage",
+    "Country",
+    "CreativeWork",
+    "DefinedTerm",
+    "EntryPoint",
+    "FAQPage",
+    "GeoCoordinates",
+    "HomeAndConstructionBusiness",
+    "ImageObject",
+    "ItemList",
+    "ListItem",
+    "LocalBusiness",
+    "Offer",
+    "OfferCatalog",
+    "OpeningHoursSpecification",
+    "Organization",
+    "Person",
+    "Place",
+    "PostalAddress",
+    "PropertyValue",
+    "Question",
+    "QuoteAction",
+    "SearchAction",
+    "Service",
+    "TechArticle",
+    "UnitPriceSpecification",
+    "VideoObject",
+    "WebApplication",
+    "WebPage",
+    "WebSite"
+  ],
+  "markdown_twin_404": [
+    {
+      "page": "/framework",
+      "md_url": "https://ecowoods.ca/framework.md",
+      "status": 404,
+      "content_type": "text/markdown; charset=utf-8",
+      "error": "HTTPError 404"
+    },
+    {
+      "page": "/authority",
+      "md_url": "https://ecowoods.ca/authority.md",
+      "status": 404,
+      "content_type": "text/markdown; charset=utf-8",
+      "error": "HTTPError 404"
+    }
+  ],
+  "markdown_alternate_home": true,
+  "facts_as_of": "2026-09-18",
+  "llms_status": 200,
+  "llms_full_status": 200,
+  "llms_full_bytes": 499679,
+  "ai_txt_status": 200,
+  "knowledge_status": 200,
+  "knowledge_bytes": 553097,
+  "knowledge_criteria": 25,
+  "knowledge_pillars": 6,
+  "health_status": 200,
+  "market_status": 200,
+  "robots_agents": [
+    "*",
+    "Amazonbot",
+    "Applebot-Extended",
+    "CCBot",
+    "ChatGPT-User",
+    "Claude-SearchBot",
+    "Claude-User",
+    "Claude-Web",
+    "ClaudeBot",
+    "GPTBot",
+    "Google-Extended",
+    "Meta-ExternalAgent",
+    "OAI-SearchBot",
+    "Perplexity-User",
+    "PerplexityBot",
+    "anthropic-ai",
+    "cohere-ai"
+  ],
+  "api_knowledge_robots": {
+    "longest": "allow",
+    "longest_path": "/api/knowledge",
+    "first": "allow",
+    "first_path": "/",
+    "matched": [
+      {
+        "type": "allow",
+        "path": "/"
+      },
+      {
+        "type": "allow",
+        "path": "/api/knowledge"
+      },
+      {
+        "type": "disallow",
+        "path": "/api/"
+      }
+    ]
+  },
+  "price_bands_in_llms": true,
+  "francisco_in_llms": true,
+  "llms_not_instructions": true,
+  "google_review_line": "- Reviews: 19 at 4.8 on Google, read 2026-09-04 — https://www.google.com/maps/place/?q=place_id:ChIJcZSiRZAwK4gRUz7OX0_K7U4",
+  "homestars_line": "- Reviews: 177 at 5.0 on HomeStars, read 2026-08-22 — https://www.homestars.com/profile/2776939-ecowoods/reviews",
+  "security": {
+    "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+    "content-security-policy": "default-src 'self'; script-src 'self' 'unsafe-inline' https://vercel.live https://va.vercel-scripts.com https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: blob: https:; font",
+    "content-security-policy-report-only": "default-src 'self'; script-src 'self' https://vercel.live https://va.vercel-scripts.com https://www.googletagmanager.com; style-src 'self' https://fonts.googleapis.com; img-src 'self' data: blob: https:; font-src 'self' data: https://fonts.",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "cross-origin-opener-policy": "same-origin",
+    "permissions-policy": "camera=(self), microphone=(), geolocation=(), browsing-topics=()",
+    "x-robots-tag": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+    "csp_has_unsafe_inline_script": true
+  },
+  "estimate_forms": 1,
+  "estimate_tel": true,
+  "whatsapp_on_priority": false,
+  "tel_on_home": true,
+  "floor_studio_status": 200,
+  "quote_check_status": 200,
+  "framework_status": 200,
+  "assess_status": 200,
+  "reviews_status": 200,
+  "cost_guide_status": 200
+}

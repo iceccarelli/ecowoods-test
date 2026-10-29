@@ -1,0 +1,422 @@
+{
+  "audited_at": "2026-10-29T18:30:35Z",
+  "origin": "https://ecowoods.ca",
+  "files": {
+    "/robots.txt": {
+      "ok": true,
+      "status": 200,
+      "final_url": "https://ecowoods.ca/robots.txt",
+      "ttfb_ms": 572.9,
+      "bytes_read": 1161,
+      "truncated": false,
+      "error": null,
+      "content_type": "text/plain",
+      "sha256": "dd06e9cff369873060bca6d9d534a28f146d1fa836ae6722f597023b496245c9",
+      "groups": [
+        {
+          "agents": [
+            "*"
+          ],
+          "rule_count": 19,
+          "rules": [
+            {
+              "type": "allow",
+              "path": "/"
+            },
+            {
+              "type": "allow",
+              "path": "/api/knowledge"
+            },
+            {
+              "type": "allow",
+              "path": "/api/market"
+            },
+            {
+              "type": "allow",
+              "path": "/api/estimate"
+            },
+            {
+              "type": "allow",
+              "path": "/api/health"
+            },
+            {
+              "type": "allow",
+              "path": "/api/v1"
+            },
+            {
+              "type": "allow",
+              "path": "/api/v1/"
+            },
+            {
+              "type": "allow",
+              "path": "/llms.txt"
+            },
+            {
+              "type": "allow",
+              "path": "/llms-full.txt"
+            },
+            {
+              "type": "allow",
+              "path": "/md/"
+            },
+            {
+              "type": "allow",
+              "path": "/catalogues"
+            },
+            {
+              "type": "allow",
+              "path": "/catalogues/"
+            },
+            {
+              "type": "disallow",
+              "path": "/admin"
+            },
+            {
+              "type": "disallow",
+              "path": "/mypage"
+            },
+            {
+              "type": "disallow",
+              "path": "/api/"
+            },
+            {
+              "type": "disallow",
+              "path": "/login"
+            },
+            {
+              "type": "disallow",
+              "path": "/register"
+            },
+            {
+              "type": "disallow",
+              "path": "/verify-email"
+            },
+            {
+              "type": "disallow",
+              "path": "/docs/"
+            }
+          ]
+        },
+        {
+          "agents": [
+            "GPTBot",
+            "OAI-SearchBot",
+            "ChatGPT-User",
+            "ClaudeBot",
+            "Claude-User",
+            "Claude-SearchBot",
+            "anthropic-ai",
+            "Claude-Web",
+            "Google-Extended",
+            "Applebot-Extended",
+            "PerplexityBot",
+            "Perplexity-User",
+            "CCBot",
+            "cohere-ai",
+            "Meta-ExternalAgent",
+            "Amazonbot"
+          ],
+          "rule_count": 19,
+          "rules": [
+            {
+              "type": "allow",
+              "path": "/"
+            },
+            {
+              "type": "allow",
+              "path": "/api/knowledge"
+            },
+            {
+              "type": "allow",
+              "path": "/api/market"
+            },
+            {
+              "type": "allow",
+              "path": "/api/estimate"
+            },
+            {
+              "type": "allow",
+              "path": "/api/health"
+            },
+            {
+              "type": "allow",
+              "path": "/api/v1"
+            },
+            {
+              "type": "allow",
+              "path": "/api/v1/"
+            },
+            {
+              "type": "allow",
+              "path": "/llms.txt"
+            },
+            {
+              "type": "allow",
+              "path": "/llms-full.txt"
+            },
+            {
+              "type": "allow",
+              "path": "/md/"
+            },
+            {
+              "type": "allow",
+              "path": "/catalogues"
+            },
+            {
+              "type": "allow",
+              "path": "/catalogues/"
+            },
+            {
+              "type": "disallow",
+              "path": "/admin"
+            },
+            {
+              "type": "disallow",
+              "path": "/mypage"
+            },
+            {
+              "type": "disallow",
+              "path": "/api/"
+            },
+            {
+              "type": "disallow",
+              "path": "/login"
+            },
+            {
+              "type": "disallow",
+              "path": "/register"
+            },
+            {
+              "type": "disallow",
+              "path": "/verify-email"
+            },
+            {
+              "type": "disallow",
+              "path": "/docs/"
+            }
+          ]
+        }
+      ],
+      "api_knowledge_decision": {
+        "longest": "allow",
+        "longest_path": "/api/knowledge",
+        "first": "allow",
+        "first_path": "/",
+        "matched": [
+          {
+            "type": "allow",
+            "path": "/"
+          },
+          {
+            "type": "allow",
+            "path": "/api/knowledge"
+          },
+          {
+            "type": "disallow",
+            "path": "/api/"
+          }
+        ]
+      },
+      "admin_decision": {
+        "longest": "disallow",
+        "longest_path": "/admin",
+        "first": "allow",
+        "first_path": "/",
+        "matched": [
+          {
+            "type": "allow",
+            "path": "/"
+          },
+          {
+            "type": "disallow",
+            "path": "/admin"
+          }
+        ]
+      },
+      "agent_names": [
+        "*",
+        "Amazonbot",
+        "Applebot-Extended",
+        "CCBot",
+        "ChatGPT-User",
+        "Claude-SearchBot",
+        "Claude-User",
+        "Claude-Web",
+        "ClaudeBot",
+        "GPTBot",
+        "Google-Extended",
+        "Meta-ExternalAgent",
+        "OAI-SearchBot",
+        "Perplexity-User",
+        "PerplexityBot",
+        "anthropic-ai",
+        "cohere-ai"
+      ],
+      "text_excerpt": "User-Agent: *\nAllow: /\nAllow: /api/knowledge\nAllow: /api/market\nAllow: /api/estimate\nAllow: /api/health\nAllow: /api/v1\nAllow: /api/v1/\nAllow: /llms.txt\nAllow: /llms-full.txt\nAllow: /md/\nAllow: /catalogues\nAllow: /catalogues/\nDisallow: /admin\nDisallow: /mypage\nDisallow: /api/\nDisallow: /login\nDisallow: /register\nDisallow: /verify-email\nDisallow: /docs/\n\nUser-Agent: GPTBot\nUser-Agent: OAI-SearchBot\nUser-Agent: ChatGPT-User\nUser-Agent: ClaudeBot\nUser-Agent: Claude-User\nUser-Agent: Claude-SearchBot\nUser-Agent: anthropic-ai\nUser-Agent: Claude-Web\nUser-Agent: Google-Extended\nUser-Agent: Applebot-Extended\nUser-Agent: PerplexityBot\nUser-Agent: Perplexity-User\nUser-Agent: CCBot\nUser-Agent: cohere-ai\nUser-Agent: Meta-ExternalAgent\nUser-Agent: Amazonbot\nAllow: /\nAllow: /api/knowledge\nAllow: /api/market\nAllow: /api/estimate\nAllow: /api/health\nAllow: /api/v1\nAllow: /api/v1/\nAllow: /llms.txt\nAllow: /llms-full.txt\nAllow: /md/\nAllow: /catalogues\nAllow: /catalogues/\nDisallow: /admin\nDisallow: /mypage\nDisallow: /api/\nDisallow: /login\nDisallow: /register\nDisallow: /verify-email\nDisallow: /docs/\n\nHost: https://ecowoods.ca\nSitemap: https://ecowoods.ca/sitemap.xml\n"
+    },
+    "/sitemap.xml": {
+      "ok": true,
+      "status": 200,
+      "final_url": "https://ecowoods.ca/sitemap.xml",
+      "ttfb_ms": 267.6,
+      "bytes_read": 81836,
+      "truncated": false,
+      "error": null,
+      "content_type": "application/xml",
+      "sha256": "4dc9e87baa693e1c2e29dc76ebb9ad47d3bc673a58b92a30b7ac3d664c18db40",
+      "url_count": 622,
+      "sample_locs": [
+        "https://ecowoods.ca",
+        "https://ecowoods.ca/brand/ew-mark.png",
+        "https://ecowoods.ca/brand/ew-mark-192.png",
+        "https://ecowoods.ca/brand/ecowoods-logo-ew.jpg",
+        "https://ecowoods.ca/floor-studio",
+        "https://ecowoods.ca/design",
+        "https://ecowoods.ca/assistant",
+        "https://ecowoods.ca/technical-library",
+        "https://ecowoods.ca/papers",
+        "https://ecowoods.ca/catalogues",
+        "https://ecowoods.ca/products/floorforge",
+        "https://ecowoods.ca/blog",
+        "https://ecowoods.ca/case-studies",
+        "https://ecowoods.ca/about",
+        "https://ecowoods.ca/team",
+        "https://ecowoods.ca/reviews",
+        "https://ecowoods.ca/press",
+        "https://ecowoods.ca/where-we-work",
+        "https://ecowoods.ca/authority",
+        "https://ecowoods.ca/framework",
+        "https://ecowoods.ca/_next/static/media/acoustic-three-methods.b5752716.webp",
+        "https://ecowoods.ca/_next/static/media/acoustic-three-methods-b.c74ed7a3.webp",
+        "https://ecowoods.ca/_next/static/media/assembly-condo-slab-stack.999f5676.webp",
+        "https://ecowoods.ca/_next/static/media/assembly-condo-slab-stack-b.47d25b09.webp",
+        "https://ecowoods.ca/_next/static/media/change-order-drift.334e83af.webp"
+      ]
+    },
+    "/llms.txt": {
+      "ok": true,
+      "status": 200,
+      "final_url": "https://ecowoods.ca/llms.txt",
+      "ttfb_ms": 363.3,
+      "bytes_read": 64316,
+      "truncated": false,
+      "error": null,
+      "content_type": "text/plain; charset=utf-8",
+      "sha256": "dbfe4e578ecb28ab99c5d8f6dfb1d4d811499e561c3ead5a6e08d2eb95ea5056",
+      "chars": 63972,
+      "facts_as_of": "2026-09-18",
+      "mentions_price_bands": true,
+      "mentions_francisco": true,
+      "mentions_framework": true,
+      "homestars_line": "- Reviews: 177 at 5.0 on HomeStars, read 2026-08-22 — https://www.homestars.com/profile/2776939-ecowoods/reviews",
+      "google_line": "- Reviews: 19 at 4.8 on Google, read 2026-09-04 — https://www.google.com/maps/place/?q=place_id:ChIJcZSiRZAwK4gRUz7OX0_K7U4",
+      "says_not_instructions": true
+    },
+    "/llms-full.txt": {
+      "ok": true,
+      "status": 200,
+      "final_url": "https://ecowoods.ca/llms-full.txt",
+      "ttfb_ms": 273.7,
+      "bytes_read": 499679,
+      "truncated": false,
+      "error": null,
+      "content_type": "text/plain; charset=utf-8",
+      "sha256": "a8397c78c678c48c770489373129d6cb4e4afbe12832bb36576483aee47eb29c",
+      "chars": 499679
+    },
+    "/ai.txt": {
+      "ok": true,
+      "status": 200,
+      "final_url": "https://ecowoods.ca/ai.txt",
+      "ttfb_ms": 240.0,
+      "bytes_read": 45804,
+      "truncated": false,
+      "error": null,
+      "content_type": "text/plain; charset=utf-8",
+      "sha256": "0c94b00ad5039a7aea867a371ed5bdaa9b560413b6b2ffdd5e9f3e2d234b5f14",
+      "chars": 45624,
+      "mentions_floor_studio": true,
+      "mentions_francisco": true
+    },
+    "/feed.xml": {
+      "ok": true,
+      "status": 200,
+      "final_url": "https://ecowoods.ca/feed.xml",
+      "ttfb_ms": 200.2,
+      "bytes_read": 11558,
+      "truncated": false,
+      "error": null,
+      "content_type": "application/rss+xml; charset=utf-8",
+      "sha256": "e201b4da5dddfa7e65a0d36a2e1049de6017105c90cfca896cb23a10d94d8ff6"
+    },
+    "/api/health": {
+      "ok": true,
+      "status": 200,
+      "final_url": "https://ecowoods.ca/api/health",
+      "ttfb_ms": 368.7,
+      "bytes_read": 2759,
+      "truncated": false,
+      "error": null,
+      "content_type": "application/json; charset=utf-8",
+      "sha256": "315ff3c19ef53c598ba22e4b80deefbebeb7bf1b74a1cd00fea99d65af14e92e",
+      "excerpt": "{\n  \"status\": \"ok\",\n  \"checkedAt\": \"2026-10-29T18:26:15.713Z\",\n  \"site\": \"https://ecowoods.ca\",\n  \"name\": \"Ecowoods Inc. — service health\",\n  \"upstream\": [\n    {\n      \"name\": \"Bank of Canada Valet API\",\n      \"url\": \"https://www.bankofcanada.ca/valet\",\n      \"seriesRequested\": 3,\n      \"seriesReturned\": 3\n    }\n  ],\n  \"summary\": {\n    \"seriesDown\": 0,\n    \"seriesStale\": 0,\n    \"standardsDueForReview\": 0\n  },\n  \"series\": [\n    {\n      \"id\": \"M.FOPR\",\n      \"name\": \"Forestry commodity index\",\n   "
+    },
+    "/api/knowledge": {
+      "ok": true,
+      "status": 200,
+      "final_url": "https://ecowoods.ca/api/knowledge",
+      "ttfb_ms": 303.1,
+      "bytes_read": 553097,
+      "truncated": false,
+      "error": null,
+      "content_type": "application/json; charset=utf-8",
+      "sha256": "f2b23c8d0ec95b04b6e0acb197f416ab3155fd458645daa00ce9caecfe822642",
+      "json": true,
+      "top_keys": [
+        "meta",
+        "papers",
+        "framework",
+        "guides",
+        "catalogues",
+        "glossary",
+        "figures",
+        "changelog",
+        "standards",
+        "services",
+        "locations",
+        "pricing",
+        "commercialPages",
+        "caseStudies",
+        "business"
+      ],
+      "meta_counts": {
+        "papers": 5,
+        "catalogues": 7,
+        "frameworkCriteria": 25,
+        "guides": 24,
+        "glossaryTerms": 44,
+        "figures": 4,
+        "changelogEntries": 30,
+        "externalStandards": 9,
+        "services": 6,
+        "locations": 100,
+        "priceBands": 6,
+        "commercialPages": 17,
+        "caseStudies": 5
+      },
+      "framework_pillars": 6,
+      "framework_criteria": 25
+    },
+    "/api/market": {
+      "ok": true,
+      "status": 200,
+      "final_url": "https://ecowoods.ca/api/market",
+      "ttfb_ms": 235.8,
+      "bytes_read": 10275,
+      "truncated": false,
+      "error": null,
+      "content_type": "application/json; charset=utf-8",
+      "sha256": "d9feffe7fe858473f2afe6fa04b0f478575ba4d829fe7c9d07a2991a1218a6df"
+    }
+  }
+}

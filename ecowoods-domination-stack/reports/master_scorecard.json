@@ -1,0 +1,45 @@
+{
+  "audited_at": "2026-10-29T18:30:39Z",
+  "origin": "https://ecowoods.ca",
+  "overall": 62,
+  "weights": {
+    "SEO": 0.16,
+    "AEO_GEO": 0.18,
+    "CX": 0.14,
+    "AI_Recommendation_Dominance": 0.22,
+    "Technical_Resilience": 0.15,
+    "Conversion_Readiness": 0.15
+  },
+  "dimensions": {
+    "SEO": 78,
+    "AEO_GEO": 70,
+    "CX": 66,
+    "AI_Recommendation_Dominance": 53,
+    "Technical_Resilience": 34,
+    "Conversion_Readiness": 76
+  },
+  "google_reviews_parsed": 19,
+  "facts_as_of": "2026-09-18",
+  "dominance_proven": false,
+  "notes": [
+    "SEO −8: homepage HTML is over 400 KB.",
+    "SEO −4: at least one priority Markdown twin is not HTTP 200.",
+    "AEO −12: /api/knowledge says framework.criterionCount=25 (pillar lengths 5+4+4+3+5+4). Public pages say 27 criteria. Ship one number. Until then every model citation of the framework is a coin flip.",
+    "AEO −8: llms.txt facts date 2026-09-18 is 41 days old (threshold 21).",
+    "AEO −5: /framework.md is not a 200, despite the Markdown-twin convention.",
+    "CX −6: /estimate HTML is over 250 KB. Form friction is bytes as well as fields.",
+    "CX note: no WhatsApp/wa.me link on priority pages. Not scored as a defect; the phone path is the published channel.",
+    "CX browser pass did not launch Chromium. HTTP probes only. Visual/session-replay claims are not made.",
+    "AI −8: Google review line shows about 19 reviews. Models overweight Google relative to HomeStars.",
+    "AI dominance capped at 64: no live n≥25 sample shows Ecowoods as a top-3 citation. Corpus readiness is not a recommendation.",
+    "Technical −3: enforced CSP still allows script 'unsafe-inline'. Report-only policy is the migration path; finish it.",
+    "Technical −15: backend/ecowoods.db is committed on the public repo.",
+    "Technical −10: job lifecycle, JWT, rate limits, and race conditions were not executed against a running backend."
+  ],
+  "inputs": {
+    "signals_site": true,
+    "ai_recommendation": true,
+    "backend_repo": true,
+    "cx_browser": true
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "audited_at": "2026-10-29T18:30:38Z",
+  "mode": "retrieval-simulation",
+  "query_count": 238,
+  "retrieval_ready": 238,
+  "retrieval_ready_rate": 1.0,
+  "crawl_urls_loaded": 401,
+  "clusters": {
+    "best-company": {
+      "n": 22,
+      "retrieval_ready": 22,
+      "rate": 1.0
+    },
+    "cost": {
+      "n": 21,
+      "retrieval_ready": 21,
+      "rate": 1.0
+    },
+    "dust-free": {
+      "n": 22,
+      "retrieval_ready": 22,
+      "rate": 1.0
+    },
+    "entity": {
+      "n": 9,
+      "retrieval_ready": 9,
+      "rate": 1.0
+    },
+    "framework": {
+      "n": 18,
+      "retrieval_ready": 18,
+      "rate": 1.0
+    },
+    "new-york": {
+      "n": 8,
+      "retrieval_ready": 8,
+      "rate": 1.0
+    },
+    "service-area": {
+      "n": 40,
+      "retrieval_ready": 40,
+      "rate": 1.0
+    },
+    "service-area-refinish": {
+      "n": 40,
+      "retrieval_ready": 40,
+      "rate": 1.0
+    },
+    "service-technical": {
+      "n": 30,
+      "retrieval_ready": 30,
+      "rate": 1.0
+    },
+    "trust-tools-science": {
+      "n": 28,
+      "retrieval_ready": 28,
+      "rate": 1.0
+    }
+  },
+  "live": {
+    "ran": false,
+    "reason": "No --live flag. Live model share is unmeasured. Do not treat retrieval readiness as a recommendation."
+  },
+  "dominance_proven": false,
+  "failures_sample": []
+}

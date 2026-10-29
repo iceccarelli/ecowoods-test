@@ -1,0 +1,22 @@
+# PROPOSED. Diff against live robots.txt. Do not add Disallow rules for AI bots.
+# Live file already allows GPTBot, ClaudeBot, PerplexityBot, Google-Extended, CCBot.
+# Gaps to consider, each as its own group with the same Allow set as GPTBot:
+#
+# User-agent: Bingbot
+# User-agent: Applebot
+# User-agent: GoogleOther
+# User-agent: DuckAssistBot
+# User-agent: YouBot
+# Allow: /
+# Allow: /llms.txt
+# Allow: /llms-full.txt
+# Allow: /ai.txt
+# Allow: /api/knowledge
+# Disallow: /admin
+# Disallow: /mypage
+# Disallow: /login
+# Disallow: /register
+#
+# Do not Disallow: /api/ in the same group if you also need /api/knowledge.
+# Longest-match parsers allow the longer path; first-match parsers may not.
+# The audit records both decisions in reports/machine_surfaces.json.

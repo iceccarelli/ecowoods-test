@@ -1,0 +1,27 @@
+# Proposal. Drop into ecowoods-app as .github/workflows/external-audit.yml
+# after you decide the schedule. It clones THIS stack, not the 1 GB app repo.
+name: ecowoods-external-audit
+on:
+  schedule:
+    - cron: "0 12 * * 1"
+  workflow_dispatch:
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: python3 scripts/full_site_audit.py --url https://ecowoods.ca
+      - run: python3 scripts/ai_recommendation_tester.py --queries fixtures/high_intent_queries.json
+      - run: node scripts/playwright_cx_stress.js
+      - run: bash scripts/generate_improvement_patches.sh
+      - uses: actions/upload-artifact@v4
+        with:
+          name: scorecard
+          path: reports/

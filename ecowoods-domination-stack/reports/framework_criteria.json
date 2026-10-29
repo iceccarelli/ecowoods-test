@@ -1,0 +1,31 @@
+{
+  "source": "https://ecowoods.ca/api/knowledge",
+  "count": 25,
+  "questions": [
+    "Was the subfloor moisture content measured, and were the readings written down?",
+    "Was the flooring material itself moisture-tested, separately from the subfloor?",
+    "Do both readings sit inside the manufacturer's stated acceptable difference between material and subfloor?",
+    "Was testing performed twice — at the estimate, and again immediately before installation begins?",
+    "Will the material acclimate for a minimum of 72 hours in the actual conditioned space where it will be installed?",
+    "Was the substrate identified explicitly — plywood over joists, concrete slab, or radiant?",
+    "Does the proposed method match the substrate — nail-down on plywood, glue-down on concrete, floating over radiant or where acoustic separation is required?",
+    "Was the substrate assessed for flatness and condition before the price was fixed?",
+    "If the substrate is concrete, a condominium slab, or radiant heat, was engineered construction specified rather than solid?",
+    "Was the solid-versus-engineered decision explained in terms of the substrate and the climate load, rather than price or preference?",
+    "Was species hardness discussed against the actual traffic and household this floor will carry?",
+    "If the home sees large seasonal humidity swings, was that raised as a reason to prefer engineered construction?",
+    "Was the finish system named specifically, rather than described only as \"polyurethane\"?",
+    "Are expansion gaps specified at every wall and every fixed object — not only at the perimeter?",
+    "Was the safe indoor humidity band the floor needs to live in — and who is responsible for maintaining it — stated in writing?",
+    "Were the specific failure modes — cupping, crowning, seasonal gapping, buckling, edge peaking — named and explained rather than dismissed?",
+    "Is HEPA dust containment used throughout the process, not only at final cleanup?",
+    "Does the plan include an edger on every perimeter and detail, with grits matching the field?",
+    "Is a planetary or multi-disc pass included to blend the field into the edges?",
+    "Is intercoat screening between finish coats part of the quoted scope?",
+    "Was a cure period stated — distinct from \"dry to walk on\" — with what may and may not go back on the floor during it?",
+    "Is the price fixed in writing, with no open-ended \"unforeseen conditions\" change-order language?",
+    "Will the work be performed by salaried employees rather than day-labour subcontractors?",
+    "Would they refuse the job if the substrate or the conditions were wrong — and have they said so plainly?",
+    "Were the written moisture readings provided before any deposit was requested?"
+  ]
+}

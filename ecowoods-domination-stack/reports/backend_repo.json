@@ -1,0 +1,181 @@
+{
+  "audited_at": "2026-10-29T18:30:38Z",
+  "clone_performed": false,
+  "reason_not_cloned": "Repo size is about 1 GB and backend/ecowoods.db must not be copied into this handoff.",
+  "repo": {
+    "full_name": "iceccarelli/ecowoods-app",
+    "private": false,
+    "description": "Full-stack job management platform for hardwood flooring — React Native mobile app, FastAPI backend, admin dashboard, and Docker deployment.",
+    "language": "TypeScript",
+    "default_branch": "main",
+    "pushed_at": "2026-10-25T21:26:55Z",
+    "size_kb": 1067260,
+    "stars": 0,
+    "open_issues": 1,
+    "license": "MIT",
+    "topics": [
+      "admin-dashboard",
+      "docker",
+      "expo",
+      "fastapi",
+      "flooring",
+      "job-management",
+      "jwt-authentication",
+      "mobile-app",
+      "postgresql",
+      "python",
+      "react-native",
+      "rest-api",
+      "sqlalchemy",
+      "typescript"
+    ],
+    "homepage": "https://ecowoods.ca/"
+  },
+  "top_level": [
+    ".devcontainer",
+    ".dockerignore",
+    ".env.example",
+    ".eslintrc",
+    ".gitattributes",
+    ".github",
+    ".gitignore",
+    ".npmrc",
+    ".vercelignore",
+    "ASSISTANT_COMPONENT_MAP.md",
+    "ASSISTANT_CONTEXTUAL_ACTIONS_SPEC.md",
+    "ASSISTANT_DESIGN_SYSTEM.md",
+    "ASSISTANT_PHASE3_RENOVATION_CREDITS.md",
+    "ASSISTANT_PRODUCT_TEARDOWN.md",
+    "ASSISTANT_RUTHLESS_PRODUCT_AUDIT.md",
+    "ASSISTANT_UI_AUDIT.md",
+    "CLAUDE.md",
+    "LICENSE",
+    "apps",
+    "audit",
+    "backend",
+    "docker-compose.yml",
+    "docs",
+    "openclaw-workspace-state.json",
+    "package.json",
+    "packages",
+    "pnpm-lock.yaml",
+    "pnpm-workspace.yaml",
+    "public",
+    "scripts",
+    "services",
+    "tsconfig.base.json",
+    "turbo.json",
+    "uiadvisory.txt",
+    "vercel.json"
+  ],
+  "apps": [
+    ".npmrc",
+    "admin",
+    "mobile",
+    "vercel.json",
+    "web"
+  ],
+  "backend_files": [
+    ".dockerignore",
+    ".env.example",
+    "Dockerfile",
+    "alembic.ini",
+    "app",
+    "ecowoods.db",
+    "migrations",
+    "pyproject.toml",
+    "requirements-test.txt",
+    "requirements.txt",
+    "seed_products.py",
+    "tests"
+  ],
+  "committed_sqlite": true,
+  "has_fastapi_layout": true,
+  "has_alembic": true,
+  "has_backend_tests": true,
+  "has_dockerfile": true,
+  "has_docker_compose": true,
+  "has_mobile": true,
+  "has_admin": true,
+  "has_web": true,
+  "internal_verify_or_audit_scripts": 80,
+  "verify_script_sample": [
+    "audit-ai-discoverability.mjs",
+    "audit-all.sh",
+    "audit-current-state.mjs",
+    "audit-header-scroll.mjs",
+    "audit-rendered.mjs",
+    "verify-a11y.mjs",
+    "verify-aeo.mjs",
+    "verify-agentic.mjs",
+    "verify-all.mjs",
+    "verify-allocation.mjs",
+    "verify-area-overlap.mjs",
+    "verify-assets.mjs",
+    "verify-assistant.mjs",
+    "verify-business-facts.mjs",
+    "verify-canonical.mjs",
+    "verify-catalogues.mjs",
+    "verify-changelog.mjs",
+    "verify-chrome.mjs",
+    "verify-cities.mjs",
+    "verify-client-boundary.mjs",
+    "verify-color-matching-images.mjs",
+    "verify-conversion.mjs",
+    "verify-css.mjs",
+    "verify-destinations.mjs",
+    "verify-entity.mjs"
+  ],
+  "recent_commits": [
+    {
+      "sha": "aa5769671dce",
+      "date": "2026-10-25T21:26:21Z",
+      "message": "Area pages: the cost question names the area it is asked about"
+    },
+    {
+      "sha": "04d683b49a68",
+      "date": "2026-10-25T21:24:36Z",
+      "message": "Geo: remove the census download machinery; put the data we have on the pages as a cited local fact"
+    },
+    {
+      "sha": "21a1e239c88d",
+      "date": "2026-10-25T21:21:09Z",
+      "message": "Admin: Search Console performance, read-only, joined to markets and leads"
+    },
+    {
+      "sha": "89231c45e237",
+      "date": "2026-10-25T20:03:46Z",
+      "message": "CLAUDE.md: describe the real geo ingest route (Web Data Service, Census API key, review branch)"
+    },
+    {
+      "sha": "79e5ab7ba29e",
+      "date": "2026-10-25T20:03:28Z",
+      "message": "Geo fetch: say plainly that the Census API needs a key, and stop retrying"
+    }
+  ],
+  "job_lifecycle_note": "End-to-end estimate→measure→schedule→photos→invoice was NOT executed. No credentials, and this stack will not create production leads.",
+  "test_repo": {
+    "full_name": "iceccarelli/ecowoods-test",
+    "private": false,
+    "size_kb": 0,
+    "pushed_at": "2026-10-29T17:51:58Z",
+    "description": "ecowoods world domination in tis niche market and succeed into driving the valuation and of course world rated  number one in this niche market",
+    "files": [
+      "README.md"
+    ],
+    "populated_by_this_stack": false,
+    "blocker": "No GitHub token in the audit environment. Seed content is in test-repo-seed/. Run scripts/seed_test_repo.sh after gh auth login."
+  },
+  "security_flags": [
+    {
+      "id": "committed-sqlite",
+      "severity": "P0",
+      "detail": "backend/ecowoods.db is in the public tree. Confirm it is a fixture with zero customer rows. If it has leads, phones, or addresses: remove it from git, purge history, rotate any secrets that lived beside it, and notify affected people if the data was personal."
+    },
+    {
+      "id": "repo-size",
+      "severity": "P1",
+      "detail": "GitHub reports size_kb=1067260 (~1 GB class). CI clones, agent clones, and forks will be slow or fail. Find the blob (likely media or the sqlite file) and move it to object storage or Git LFS with a budget."
+    }
+  ]
+}
